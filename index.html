@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Extrato Mensal</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!-- Google Fonts - Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #121212;
+      font-family: 'Poppins', sans-serif;
+      color: #e0ffe0;
+    }
+
+    .top-bar {
+      background-color: #1e1e1e;
+      padding: 10px 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 10px;
+    }
+
+    .top-bar a {
+      color: #81f581;
+      font-weight: 600;
+    }
+
+    .top-bar a:hover {
+      color: #aaffaa;
+      text-decoration: underline;
+    }
+
+    .entry {
+      background-color: #1e1e1e;
+      border: 1px solid #2f2f2f;
+      border-radius: 10px;
+      padding: 12px;
+      margin-bottom: 12px;
+    }
+
+    .entry .date {
+      font-size: 0.75rem;
+      color: #999;
+    }
+
+    .text-success {
+      color: #81f581 !important;
+    }
+
+    .text-danger {
+      color: #ff6f6f !important;
+    }
+
+    .btn-voltar {
+      width: 100%;
+      margin-top: 25px;
+      background-color: #2e7d32;
+      border: none;
+      color: #fff;
+    }
+
+    .btn-voltar:hover {
+      background-color: #388e3c;
+    }
+
+    h3 {
+      color: #81f581;
+      margin: 20px 0;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container mt-3">
+
+    <div class="top-bar">
+      <a href="#">(Logo)</a>
+      <a href="#"><i class="bi bi-info-circle fs-5"></i></a>
+    </div>
+
+    <div class="text-center">
+      <h3>Extrato Mensal</h3>
+    </div>
+
+    <div class="entry">
+      <div class="d-flex justify-content-between">
+        <strong>Farmácia 1</strong>
+        <span class="text-danger">- R$ 30,00</span>
+      </div>
+      <div class="date">30/09/2025 03:00</div>
+    </div>
+
+    <div class="entry">
+      <div class="d-flex justify-content-between">
+        <strong>Mercado 1</strong>
+        <span class="text-danger">- R$ 68,99</span>
+      </div>
+      <div class="date">30/09/2025 03:00</div>
+    </div>
+
+    <div class="entry">
+      <div class="d-flex justify-content-between">
+        <strong>João Maria</strong>
+        <span class="text-success">+ R$ 30,00</span>
+      </div>
+      <div class="date">30/09/2025 03:00</div>
+    </div>
+
+    <div class="entry">
+      <div class="d-flex justify-content-between">
+        <strong>José Lanches</strong>
+        <span class="text-danger">- R$ 1,50</span>
+      </div>
+      <div class="date">30/09/2025 03:00</div>
+    </div>
+
+    <div class="entry">
+      <div class="d-flex justify-content-between">
+        <strong>Farmácia 2</strong>
+        <span class="text-danger">- R$ 60,00</span>
+      </div>
+      <div class="date">30/09/2025 03:00</div>
+    </div>
+
+    <div class="entry">
+      <div class="d-flex justify-content-between">
+        <strong>Mãe</strong>
+        <span class="text-success">+ R$ 1030,00</span>
+      </div>
+      <div class="date">30/09/2025 03:00</div>
+    </div>
+
+    <div class="entry">
+      <div class="d-flex justify-content-between">
+        <strong>FIAP Burguers</strong>
+        <span class="text-danger">- R$ 33,85</span>
+      </div>
+      <div class="date">30/09/2025 03:00</div>
+    </div>
+
+    <button class="btn btn-voltar">Voltar</button>
+  </div>
+
+</body>
+</html>
